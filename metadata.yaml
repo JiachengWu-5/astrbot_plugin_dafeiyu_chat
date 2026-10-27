@@ -1,0 +1,17 @@
+name: astrbot_plugin_dafeiyu_chat
+display_name: 大肥鱼私聊助手
+short_desc: 私聊链接摘要 + 先搜图再生图
+desc: 大肥鱼定制私聊插件。识别私聊中的 B站/小红书链接并生成短摘要；当你想看某样东西时先搜索相关图片，搜不到再尝试生图（可配置，无生图模型时优雅降级）。缓存目录可配置。
+help: 原创大肥鱼插件，由 Grok Bot (Ideas Implementation) 实现。仅私聊触发。
+version: 0.1.0
+author: Grok Bot (Ideas Implementation)
+repo: https://github.com/JiachengWu-5/astrbot_plugin_dafeiyu_chat
+support_platforms:
+  - aiocqhttp
+tags:
+  - chat
+  - private
+  - dafeiyu
+  - bilibili
+  - xiaohongshu
+  - image
